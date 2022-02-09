@@ -3,7 +3,6 @@ const API_URL = "https://api.github.com/users/";
 const main = document.getElementById("main");
 const form = document.getElementById("form");
 const search = document.getElementById("search");
-const issues = document.getElementById("issues");
 
 async function getUser(username) {
   const resp = await fetch(API_URL + username);
